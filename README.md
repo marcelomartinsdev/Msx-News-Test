@@ -10,4 +10,4 @@ Para utilização do projeto é necessário estar conectado em um bando de dados
 
 Abra seu banco de dados e execute a Query abaixo necessária para rodar o projeto:
 
-CREATE TABLE news (id, PRIMARY_KEY AUTO_INCREMENT NOT NULL, tittle VARCHAR(150) NOT NULL, description VARCHAR(150) NOT NULL, content VARCHAR(150) NOT NULL, inserted_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP)
+CREATE TABLE `news`. (`id` INT UNSIGNED NOT NULL AUTO_INCREMENT , `tittle` TEXT NOT NULL , `description` TEXT NOT NULL , `content` TEXT NOT NULL , `inserted_at` DATETIME on update CURRENT_TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP , PRIMARY KEY (`id`)) ENGINE = InnoDB;
