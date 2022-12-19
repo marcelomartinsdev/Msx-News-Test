@@ -1,0 +1,152 @@
+*, html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased !important;
+  font-family: 'Roboto Slab', serif;
+  color: rgb(243, 243, 243);
+}
+
+body {
+  background-color: #292929;
+}
+
+.nav-container {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  background-color: #141414;
+}
+
+.nav-tittle-logo-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+.news-section {
+  width: 100%;
+  padding: 5rem 12rem;
+  border: 1px solid white;
+  border-radius: 1rem;
+}
+
+@media only screen and (max-width: 1028px) {
+  .news-section {
+   padding: 5rem 5rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .news-section {
+   padding: 5rem 1rem;
+  }
+}
+
+.tittle-container {
+  text-align: center;
+}
+
+.published-at-container{
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.description-container{
+  margin-top: 1rem;
+}
+
+.text-container {
+  margin-top: 2rem;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  padding: 1rem 0 1rem 0;
+}
+
+.button-container {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  margin-top: 1rem;
+  padding-right: 1rem;
+}
+
+#add-news-btn {
+  font-size: 1rem;
+  color: #292929;
+  padding: .5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .3s all;
+}
+
+#add-news-btn:hover {
+  background-color: #141414;
+  color: #fff;
+}
+
+
+input,label {
+  display: block;
+  margin-top: 1rem;
+}
+
+.news-container {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #fff;
+  padding: 5rem 0 5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.news-container > h1 {
+  margin-bottom: 2rem;
+}
+
+form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  width: 25rem;
+  padding: .5rem;
+}
+
+input, select, textarea{
+  color: #000000;
+}
+
+textarea:focus, input:focus {
+  color: #000000;
+}
+
+.submit-btn-container {
+  margin-top: 2rem;
+}
+
+#submit-btn {
+  font-size: 1rem;
+  color: #292929;
+  padding: .5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .3s all;
+}
+
+#submit-btn:hover {
+  background-color: #141414;
+  color: #fff;
+}
+
