@@ -3,6 +3,8 @@
 
 Msx News Test é uma aplicação criada para testar os conhecimentos necessários para a entrevista de emprego na emprega Msx Contents.
 
+Skills contidas neste projeto: Comunicação entre NewsAPI para visualização de notícias atuais brasileiras e criação de um CRUD em PHP com comunicação com banco de dados onde o usúario pode inserir suas próprias notícias, alterá-las, deletá-las e consultá-las.
+
 **Projeto feito utilizando XAMPP!**
 
 Os arquivos estão presentes na pasta Msx-News-Test dentro do XAMPP
