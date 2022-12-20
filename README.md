@@ -11,3 +11,7 @@ Para utilização do projeto é necessário estar conectado em um bando de dados
 Abra seu banco de dados e execute a Query abaixo necessária para rodar o projeto:
 
 CREATE TABLE `news`. (`id` INT UNSIGNED NOT NULL AUTO_INCREMENT , `tittle` TEXT NOT NULL , `description` TEXT NOT NULL , `content` TEXT NOT NULL , `inserted_at` DATETIME on update CURRENT_TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+
+
+* Caso a chave da API tenha expirado, atualize a URL presente na linha 9 do arquivo listar-notícias.php com uma chave nova. É possível adquirir uma chave nova através do https://newsapi.org/
